@@ -1,0 +1,12 @@
+<template name="lenderDashboard">
+    <h2>Lender Dashboard</h2>
+    <ul>
+        {{#each loans}}
+        <li>
+            Amount: {{amount}},
+            Status: {{status}}
+            <button class="confirm-loan">Confirm Loan</button>
+        </li>
+        {{/each}}
+    </ul>
+</template>

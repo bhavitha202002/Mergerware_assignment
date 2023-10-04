@@ -1,0 +1,12 @@
+<template name="adminDashboard">
+    <h2>Admin Dashboard</h2>
+    <ul>
+        {{#each loans}}
+        <li>
+            Borrower: {{getBorrowerName borrowerId}},
+            Amount: {{amount}},
+            Status: {{status}}
+        </li>
+        {{/each}}
+    </ul>
+</template>

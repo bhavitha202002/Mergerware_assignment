@@ -1,0 +1,8 @@
+<template name="loanDashboard">
+    <h2>Your Loans</h2>
+    <ul>
+        {{#each loans}}
+        <li>Amount: {{amount}}, Status: {{status}}</li>
+        {{/each}}
+    </ul>
+</template>
