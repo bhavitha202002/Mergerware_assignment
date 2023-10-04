@@ -2,7 +2,7 @@
 
 First, ensure you have Meteor.js installed. If not, you can install it by running:
 
-curl https://install.meteor.com/ | sh
+npm install -g meteor
 
 Now, lets create a basic structure of the application as :
 
